@@ -3,7 +3,7 @@
 ## Objetivo
 Este pacote reproduz a análise da base METR e preserva o desfecho inicialmente indicado no Marco 2.
 
-- **Análise principal (protocolo do Marco 2):** `initial_implementation_time` (tempo até o pull request inicial), em minutos.
+- **Análise principal:** `initial_implementation_time` (tempo até o pull request inicial), em minutos.
 - **Análise secundária:** `total_implementation_time` = implementação inicial + pós-revisão, com imputação dos valores pós-revisão ausentes pela média do grupo, conforme o script oficial da METR.
 
 A versão CSV acessada em 23/11/2026 contém 246 tarefas e 16 desenvolvedores (136 com IA permitida; 110 sem IA). A variável `ai_treatment` representa permissão de uso de IA; não identifica exclusivamente o GitHub Copilot.
